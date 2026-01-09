@@ -277,3 +277,43 @@ nav{
     font-size: 14px;
     color: #627382;
 }
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;  
+    padding: 120px;
+    background-color: #001931;
+}
+#footer-container .footer-logo img {
+    width: 350px;
+    height: auto;
+}
+#footer-container .social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#footer-container .social p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+#footer-container .social .icon img {
+    width: 20px;
+    height: 20px;
+}
+#footer-container .copy-right {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#footer-container .copy-right p {
+    font-size: 16px;
+    color: #627382;
+    margin: 0;
+}
